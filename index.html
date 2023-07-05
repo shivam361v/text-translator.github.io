@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+    <style>
+        #input-box{                        
+                    height: 10vh;
+                    width: 80%;
+                    display: block;
+                    margin: 1rem;
+                    padding: 1rem;    
+        }
+    
+        #output-box{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: auto;
+        }
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+
+    <header class="hero">
+        <img class="hero-img" src="images\undraw_Content_creator_re_pt5b.png">
+        <h2 class="hero-heading" >Text Optimizer , <span class="heading-inverted"> For Better Search Result</span></h2>
+    </header>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> Enter your text here </h1>
+            <p class="para"><span class="heading-inverted">
+
+                <!-- 
+    box for the Input  text -->
+     <textarea id="input-box" placeholder="Enter your text to optimize">
+     </textarea>
+<!-- 
+    Button to call for an output of text -->
+    <h4>Translation button</h4> 
+    <button id = "translate-btn">Translate</button>
+
+<!-- 
+    Output will be recived here  -->
+     <h2>Output comes here 👇</h2>
+     <div id="output-box" placeholder="Your optimized text will comes here"></div>
+
+
+
+            </span> </p>
+        </div>
+    </section>
+    
+    <!-- //<script src="textScript.js" type="text/javascript"></script> -->
+     <script src="textScript.js" type="text/javascript"></script>
+
+        
+     <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/shivam-vishwakarma-b6b9341aa/">
+                    Linkedin
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/shivam361v">
+                    GitHub
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link" href="https://stackoverflow.com/users/22157753/shivam-vishwakarma">
+                    Stack Overflow
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link" href="https://www.hackerrank.com/shivam361v?hr_r=1">
+                    HackerRank
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link" href="https://www.hackerearth.com/@shivam361v">
+                    HackerEarth
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+</body>
+</html>

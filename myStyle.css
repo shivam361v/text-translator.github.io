@@ -1,0 +1,151 @@
+/* formatting entire body of the  page */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color : #06F7D7; 
+    --off-white     : #F3F4F6;
+    --dark-gray     : #6B7280;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin : 0px
+}
+
+/* 
+Style for header section of the page */
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img{
+    width: 350px;
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.heading-inverted{
+    color: var(--primary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/* 
+Style applied in body of the page */
+
+
+
+.container{
+    padding: 0rem 1rem;
+ }
+
+ .container-center{
+    max-width: 600px;
+    margin: auto;
+ }
+
+
+
+#input-box{                        
+    height: 10vh;
+    width: 90%;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;    
+}
+
+#output-box{
+border: 1px solid black;
+height: 10vh;
+width: 90%;
+margin: 1rem;
+padding: 1rem;
+}
+
+#translate-btn{
+    background-color: var(--dark-gray );
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+ 
+}
+
+
+
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+/* 
+Style for the footer section of the page */
+
+
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+    margin: auto;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+ 
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.showcase-list{
+    padding: 2rem;
+}
+
+.showcase-blog{
+    padding-bottom: 6rem;
+}
+
+.para {
+    line-height: 25px;
+  }
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0%;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 1px 1px;
+}
